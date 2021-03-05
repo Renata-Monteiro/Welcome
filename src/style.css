@@ -35,7 +35,6 @@ a {
   font-size: 22px;
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 20px;
 }
 a:hover {
   color: #000;
@@ -47,6 +46,7 @@ i {
 }
 
 ul {
+  display: inline-block;
   list-style: none;
 }
 
@@ -123,15 +123,14 @@ li {
   padding: 0 0px;
 }
 
-.follow-me {
-  padding-bottom: 20px;
-  text-align: center;
-}
-
 .job-experience {
   text-align: right;
   line-height: 35px;
   padding-bottom: 40px;
+}
+.follow-me {
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .social-media {
