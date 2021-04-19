@@ -48,6 +48,7 @@ i {
 ul {
   display: inline-block;
   list-style: none;
+  padding-left: 0px;
 }
 
 li {
@@ -120,7 +121,11 @@ li {
 .skills {
   list-style: none;
   display: inline;
-  padding: 0 0px;
+}
+
+.certificate {
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 .job-experience {
